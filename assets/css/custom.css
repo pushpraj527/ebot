@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'Aclonica';
+  src: url('assets/fonts/font/Aclonica-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Aladin';
+  src: url('assets/fonts/font/Aladin-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Aclonica';
+  src: url('assets/fonts/font/Aclonica-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Aclonica';
+  src: url('assets/fonts/font/Aclonica-Regular.ttf')  format('truetype');
+}
+
+html{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    background:;
+    font-family: 'Aladin';
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+ 
+/*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ */
+::-webkit-scrollbar-thumb {
+    background-color: #2d2d2d;
+    outline: 1px solid #000000;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-moz-scrollbar {
+    width: 5px;
+}
+ 
+/*::-moz-scrollbar-track {
+    -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+ */
+::-moz-scrollbar-thumb {
+    background-color: #3f3f3f;
+    outline: 1px solid #000000;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number]::-moz-inner-spin-button, 
+input[type=number]::-moz-outer-spin-button { 
+  -moz-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number]::-o-inner-spin-button, 
+input[type=number]::-o-outer-spin-button { 
+  -o-appearance: none; 
+  margin: 0; 
+}
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #080808;
+    color: #ffffff;
+    padding: 1px 1px 0px 1px;
+    z-index: 9999;
+}
+
+.form-name {
+    text-align: center;
+}
+
+.input-fields {
+    text-align: center;
+}
+
+.custom-btn1 {
+    width: 100%;
+}
+
+.custom-btn2 {
+    width: 50%;
+}
+
+.btn-fields1 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.login-logo-design {
+    height: 300px;
+    border-radius: 200px;
+}
+
+.login-container {
+    /*margin-top: 100px;*/
+}
+
+.brand-name-login-page {
+    padding: 0;
+}
+
+.carousel1 {
+    padding: 0;
+    width: 100%;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.glass-effect {
+    background: rgba( 0, 0, 0, 0.654 );
+    padding: 0 10px 0px 10px;
+    color: rgba( 255, 255, 255, 1 );
+}
+
+.glass-effect2 {
+    background: rgba( 2, 2, 2, 0.908 );
+    padding: 0 10px 2px 10px;
+    color: rgba( 255, 255, 255, 1 );
+    box-shadow: 0 0 8px rgba( 0, 0, 0, 0.941 );
+}
+
+.break {
+    padding: 5px;
+}
+
+
+
+.input-fields1 {
+    text-transform: uppercase;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+
+.btn-transparent {
+    background: transparent;
+    padding: 2px;
+}
+
+.contactForm {
+    background: linear-gradient(rgba( 40, 40, 40, 0.97 ),rgba( 2, 2, 2, 0.995 ));
+}
+
+input-group .contact-form {
+    width: 200px;
+}
+
+.footerSection {
+  position: absolute;
+  background: #000000;
+  padding: 0;
+  bottom: 0;
+  margin-top: -20px;
+  background: #080808;
+  color: #ffffff;
+  width: 100%;
+  z-index: 9999;
+}
+
+nav {
+    height: 75px;
+    padding: 12px;
+}
+
+.navbar-inverse {
+    box-shadow: 0 0 8px 1px #1e1919;
+    background: rgba( 30, 30, 30, 0.908 );
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+@media(max-width: 768px){
+  #headerMenu{
+    background-color: #fff;
+    color: #000;
+  }
+  li:hover{
+    background-color: green;
+  }
+}
+#result{
+  height: 20px;
+  padding: 2px;
+  font-size: 14px;
+  line-height: 25px;
+}
